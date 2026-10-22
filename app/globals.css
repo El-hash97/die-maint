@@ -5,6 +5,12 @@
   --font-sans: var(--font-geist-sans);
 }
 
+@layer base {
+  *, ::before, ::after {
+    border-color: #e2e8f0;
+  }
+}
+
 body {
   background: #fff;
   color: #1e293b;
