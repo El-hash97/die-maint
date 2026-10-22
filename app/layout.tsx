@@ -18,7 +18,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <header className="border-t-[14px] border-b-[14px] border-toyota bg-white">
           <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-4">
             <div className="flex items-center gap-4">
-              <Image src="/logo.png" alt="Toyota" width={2878} height={820} priority className="h-12 w-auto" />
+              <Image src="/logo.png" alt="Toyota" width={2878} height={820} priority className="h-8 w-auto sm:h-10" />
               <div className="leading-tight">
                 <div className="text-[11px] uppercase tracking-wide text-slate-500">Sistem Informasi</div>
                 <div className="text-sm font-bold">Die Maintenance Abnormal Finding</div>
