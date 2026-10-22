@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import Image from "next/image";
 import "./globals.css";
 import { Nav } from "./nav";
 
@@ -17,7 +18,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <header className="border-t-[14px] border-b-[14px] border-toyota bg-white">
           <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-4">
             <div className="flex items-center gap-4">
-              <span className="text-3xl font-black tracking-tight text-toyota">TOYOTA</span>
+              <Image src="/logo.png" alt="Toyota" width={2878} height={820} priority className="h-12 w-auto" />
               <div className="leading-tight">
                 <div className="text-[11px] uppercase tracking-wide text-slate-500">Sistem Informasi</div>
                 <div className="text-sm font-bold">Die Maintenance Abnormal Finding</div>
